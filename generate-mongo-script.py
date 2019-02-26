@@ -6,6 +6,7 @@ import os
 import csv
 import re
 import json
+import uuid
 from dateutil import parser as date
 from datetime import datetime
 
@@ -53,9 +54,11 @@ def load_domains():
     return domains
 
 def get_guid(k, v, domains, domain, table):
-    global x
-    guid = '0000-0000-00000-00000{}'.format(x)
-    x += 1
+    #global x
+    #guid = '0000-0000-00000-00000{}'.format(x)
+    #x += 1
+
+    guid = str(uuid.uuid4())
 
     # find all references to this guid
     referenced = []
