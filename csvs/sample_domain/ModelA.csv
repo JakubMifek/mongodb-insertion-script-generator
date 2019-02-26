@@ -1,0 +1,4 @@
+_id,metadata.type,metadata.created,metadata.modified,firstName,lastName,associations.merged
+guid,ModelA,date,date,Spongebob,Squarepants,"[HeadPositionAssociation._id]"
+mifekj,,,,Jakub,Mifek,
+mozikm,,,,Michal,Mozik,"[""asocA""]"

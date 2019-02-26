@@ -1,0 +1,3 @@
+_id,metadata.type,metadata.created,metadata.modified,modelBIds
+guid,ModelC,date,date,"[ModelA._id]"
+group1,,,,"[""mifekj"",""mozikm""]"

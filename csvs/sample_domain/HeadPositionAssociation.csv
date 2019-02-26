@@ -1,0 +1,3 @@
+_id,metadata.type,metadata.created,metadata.modified,modelBId,modelBInvolvedId
+guid,HeadPositionAssociation,date,date,"ModelA._id","ModelA._id"
+asocA,,,,"mozikm","mifekj"
